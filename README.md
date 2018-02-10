@@ -6,7 +6,7 @@ for any errors occurring in the running application using [Sentry](https://sentr
 
 # Installation and configuration
 
-Run `npm install matueranet/genie-router-plugin-sentry` in your genie-router plugin
+Run `npm install --save matueranet/genie-router-plugin-sentry` in your genie-router plugin
 location (default is `$HOME/.genie-router`). Add an attribute `sentry` to your `config.json`.
 
 This plugin is added as a HTTP plugin, it is therefore required to have HTTP enabled
