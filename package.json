@@ -1,14 +1,14 @@
 {
-  "name": "genie-router-plugin-sentry",
-  "version": "1.0.0",
+  "name": "@genie-ai/genie-router-plugin-sentry",
+  "version": "2.0.0",
   "description": "A plugin that enables sentry.io error reporting in genie-router.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matueranet/genie-router-plugin-sentry.git"
+    "url": "git+https://github.com/genie-ai/genie-router-plugin-sentry.git"
   },
   "keywords": [
     "genie-router",
@@ -16,19 +16,25 @@
     "sentry.io",
     "sentry"
   ],
+  "engines": {
+    "node": ">=8.10"
+  },
   "author": "matueranet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matueranet/genie-router-plugin-sentry/issues"
+    "url": "https://github.com/genie-ai/genie-router-plugin-sentry/issues"
   },
-  "homepage": "https://github.com/matueranet/genie-router-plugin-sentry#readme",
+  "homepage": "https://github.com/genie-ai/genie-router-plugin-sentry#readme",
   "devDependencies": {
-    "standard": "^10.0.3"
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.9.0"
   },
   "dependencies": {
     "raven": "^2.2.1"
   },
   "genieRouterPlugin": {
-    "name": "sentry"
+    "name": "sentry",
+    "apiVersion": "1.0.0"
   }
 }
